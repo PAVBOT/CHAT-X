@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+}
+
+#chatRoom {
+    display: none;
+    margin-top: 20px;
+}
